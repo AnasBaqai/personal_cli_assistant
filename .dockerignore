@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+wheels/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment files (use docker env vars instead)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Testing
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation (not needed in container)
+*.md
+docs/
+
+# Development tools
+.ruff_cache/
+.mypy_cache/
+
+# Local history (will be volume mounted)
+.assistant_history/
+
+# Misc
+*.log
+.DS_Store
+Thumbs.db
